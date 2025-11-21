@@ -70,6 +70,41 @@ namespace Regexx_Toshmatov.Windows
                 MessageBox.Show("Не правильно указано отчество пользователя");
                 return;
             }
+            if (string.IsNullOrEmpty(txtIssued.Text) || !Classes.Common.CheckRegex.Match("^[а-яА-Я0-9\\s\\-,.]{5,200}$", txtIssued.Text))
+            {
+                MessageBox.Show("Не правильно указано кем выдан паспорт");
+                return;
+            }
+
+            if (string.IsNullOrEmpty(txtDateOfIssued.Text) || !Classes.Common.CheckRegex.Match("^(0[1-9]|[12][0-9]|3[01])\\.(0[1-9]|1[0-2])\\.(19|20)\\d{2}$", txtDateOfIssued.Text))
+            {
+                MessageBox.Show("Не правильно указана дата выдачи. Формат: ДД.ММ.ГГГГ ");
+                return;
+            }
+
+            if (string.IsNullOrEmpty(txtDepartmentCode.Text) || !Classes.Common.CheckRegex.Match("^\\d{3}-\\d{3}$", txtDepartmentCode.Text))
+            {
+                MessageBox.Show("Не правильно указан код подразделения. Формат: XXX-XXX");
+                return;
+            }
+
+            if (string.IsNullOrEmpty(txtSeriesAndNumber.Text) || !Classes.Common.CheckRegex.Match("^\\d{4}\\s\\d{6}$", txtSeriesAndNumber.Text))
+            {
+                MessageBox.Show("Не правильно указаны серия и номер паспорта. Формат: XXXX XXXXXX )");
+                return;
+            }
+
+            if (string.IsNullOrEmpty(txtDateOfBirth.Text) || !Classes.Common.CheckRegex.Match("^(0[1-9]|[12][0-9]|3[01])\\.(0[1-9]|1[0-2])\\.(19|20)\\d{2}$", txtDateOfBirth.Text))
+            {
+                MessageBox.Show("Не правильно указана дата рождения. Формат: ДД.ММ.ГГГГ ");
+                return;
+            }
+
+            if (string.IsNullOrEmpty(txtPlaceOfBirth.Text) || !Classes.Common.CheckRegex.Match("^[а-яА-Я0-9\\s\\-,.]{5,200}$", txtPlaceOfBirth.Text))
+            {
+                MessageBox.Show("Не правильно указано место рождения. ");
+                return;
+            }
 
 
             if (EditPassports == null)
