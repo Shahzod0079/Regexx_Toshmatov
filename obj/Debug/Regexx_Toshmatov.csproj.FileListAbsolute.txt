@@ -1,0 +1,15 @@
+E:\Regexx_Toshmatov\bin\Debug\Regexx_Toshmatov.exe.config
+E:\Regexx_Toshmatov\bin\Debug\Regexx_Toshmatov.exe
+E:\Regexx_Toshmatov\bin\Debug\Regexx_Toshmatov.pdb
+E:\Regexx_Toshmatov\obj\Debug\Regexx_Toshmatov.csproj.AssemblyReference.cache
+E:\Regexx_Toshmatov\obj\Debug\MainWindow.g.cs
+E:\Regexx_Toshmatov\obj\Debug\App.g.cs
+E:\Regexx_Toshmatov\obj\Debug\Regexx_Toshmatov_MarkupCompile.cache
+E:\Regexx_Toshmatov\obj\Debug\Regexx_Toshmatov_MarkupCompile.lref
+E:\Regexx_Toshmatov\obj\Debug\MainWindow.baml
+E:\Regexx_Toshmatov\obj\Debug\Regexx_Toshmatov.g.resources
+E:\Regexx_Toshmatov\obj\Debug\Regexx_Toshmatov.Properties.Resources.resources
+E:\Regexx_Toshmatov\obj\Debug\Regexx_Toshmatov.csproj.GenerateResource.cache
+E:\Regexx_Toshmatov\obj\Debug\Regexx_Toshmatov.csproj.CoreCompileInputs.cache
+E:\Regexx_Toshmatov\obj\Debug\Regexx_Toshmatov.exe
+E:\Regexx_Toshmatov\obj\Debug\Regexx_Toshmatov.pdb
