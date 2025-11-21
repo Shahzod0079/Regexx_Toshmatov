@@ -14,3 +14,4 @@ E:\Regexx_Toshmatov\obj\Debug\Regexx_Toshmatov.csproj.CoreCompileInputs.cache
 E:\Regexx_Toshmatov\obj\Debug\Regexx_Toshmatov.exe
 E:\Regexx_Toshmatov\obj\Debug\Regexx_Toshmatov.pdb
 E:\Regexx_Toshmatov\obj\Debug\Windows\Add.g.cs
+E:\Regexx_Toshmatov\obj\Debug\Windows\Add.baml
