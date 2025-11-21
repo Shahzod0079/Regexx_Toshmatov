@@ -77,6 +77,8 @@ namespace Regexx_Toshmatov.Windows
 
                 EditPassports = new Classes.Passport();
 
+                MainWindow.init.Passports.Add(EditPassports);
+
             }
 
 
@@ -90,6 +92,8 @@ namespace Regexx_Toshmatov.Windows
             EditPassports.SeriesAndNumber = txtSeriesAndNumber.Text;
             EditPassports.DateOfBirth = txtDateOfBirth.Text;
             EditPassports.PlaceOfBirth = txtPlaceOfBirth.Text;
+
+            MainWindow.init.LoadPassport();
 
             this.Close();
         }
